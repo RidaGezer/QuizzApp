@@ -69,6 +69,7 @@ border-style: none;
     
     color: #FFC053;
     font-size: 90px;
+    margin-left: 8rem;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -102,4 +103,29 @@ border-style: none;
 .current-question{
     font-size: 2rem;
  
+}
+
+.timer{
+    color: #FF6E6E; 
+    margin-bottom: 15rem;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.button-results{
+    color: #63ACFF;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.p-results{
+    color: #FF6EF3;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }

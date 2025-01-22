@@ -29,9 +29,7 @@ const Quiz = ({ questions, onFinishQuiz }) => {
 
   return (
     <div>
-      {/* Toon het huidige vraagnummer en het totaal aantal vragen. */}
-     
-
+    
       {/* Render de huidige vraag door het Question-component aan te roepen. */}
       <Question
         question={questions[currentQuestionIndex]} // Geef de huidige vraag door.

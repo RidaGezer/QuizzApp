@@ -7,16 +7,17 @@ const Results = ({ score, onRestart }) => {
   return (
     <div>
       {/* Toon een titel die aangeeft dat de quiz is voltooid. */}
-      <h2>Quiz Voltooid!</h2>
+      <h2 className="h2-results" >Quiz Voltooid!</h2>
       
       {/* Toon de eindscore van de gebruiker. */}
-      <p>Je score is: {score}</p>
+      <p className="p-results" >{score}</p>
+
 
       {/* 
         Een knop waarmee de gebruiker de quiz opnieuw kan starten.
         Bij klikken roept het de `onRestart`-functie aan, die door de oudercomponent wordt geleverd.
       */}
-      <button onClick={onRestart}>Opnieuw proberen</button>
+      <a className="button-results" onClick={onRestart}>Try Again?</a>
     </div>
   );
 };

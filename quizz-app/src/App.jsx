@@ -167,7 +167,7 @@ const App = () => {
             onFinishQuiz={handleFinishQuiz}
             handleAnswerSelection={handleAnswerSelection}
           />
-          <div>Time Remaining: {timer}s</div> {/* Toon de timer */}
+          <div className="timer" >Time Remaining: {timer}s</div> {/* Toon de timer */}
         </div>
       )}
       {/* Toon de resultaten */}
